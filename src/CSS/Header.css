@@ -1,0 +1,27 @@
+header{
+    border: none;
+    box-shadow: 2px 0px 4px #ccc;
+    text-decoration: none;
+    width: 100vw;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 90px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.carts{
+    margin-left: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 550px){
+    .main-header{
+        flex-direction: column;
+        margin: 0;
+    }
+}
